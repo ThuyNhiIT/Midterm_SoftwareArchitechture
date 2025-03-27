@@ -1,4 +1,4 @@
-package com.designpattern.factory;
+package com.designpattern.factory.company;
 
 public abstract class Company {
     public abstract String getName();

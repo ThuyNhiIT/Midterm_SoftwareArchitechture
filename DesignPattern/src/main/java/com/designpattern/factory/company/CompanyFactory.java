@@ -1,4 +1,4 @@
-package com.designpattern.factory;
+package com.designpattern.factory.company;
 
 public class CompanyFactory {
     public static Company getCompany(String type, String name, String address) {

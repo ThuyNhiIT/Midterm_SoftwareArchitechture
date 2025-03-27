@@ -1,4 +1,4 @@
-package com.designpattern.factory;
+package com.designpattern.factory.company;
 
 public class Corporation extends Company {
     private String name;

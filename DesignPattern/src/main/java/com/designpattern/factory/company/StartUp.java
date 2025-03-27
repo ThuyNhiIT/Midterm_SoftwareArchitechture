@@ -1,10 +1,10 @@
-package com.designpattern.factory;
+package com.designpattern.factory.company;
 
-public class FamilyBusiness extends Company {
+public class StartUp  extends Company {
     private String name;
     private String address;
 
-    public FamilyBusiness(String name, String address) {
+    public StartUp(String name, String address) {
         this.name = name;
         this.address = address;
     }
