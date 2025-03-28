@@ -2,12 +2,12 @@ package com.designpattern.factory.GUI;
 
 public class MacFactory implements GUIFactory {
     @Override
-    public Button creteButton() {
+    public Button createButton() {
         return new MacButton();
     }
 
     @Override
-    public Checkbox creteCheckbox() {
+    public Checkbox createCheckbox() {
         return new MacCheckbox();
     }
 }
